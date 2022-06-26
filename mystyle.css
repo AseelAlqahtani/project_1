@@ -1,0 +1,138 @@
+.titel {
+    font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-size: 18px;
+}
+
+.line {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    height: 6px;
+}
+
+.menuTitle {
+    padding-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    font-size: 13px;
+    font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode';
+    color: #444;
+
+}
+
+li {
+    list-style-type: none;
+    font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode';
+    padding-left: 15px;
+    padding-bottom: 13px;
+    cursor: pointer;
+    position: relative;
+}
+
+li:not(:last-child)::after {
+    content: "";
+    height: 100%;
+    width: 1px;
+    background: black;
+    position: absolute;
+    left: 22px;
+    top: 35px;
+    
+
+}
+
+.icon {
+    background: white;
+}
+
+.space_titel {
+    position: relative;
+    display: inline-block;
+    width: 80%;
+    margin-left: 10px;
+    vertical-align: top;
+}
+
+.list {
+    font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode';
+    cursor: pointer;
+}
+
+.list:hover {
+    color: rgb(0, 162, 255);
+
+}
+
+li:hover {
+    color: rgb(0, 162, 255);
+
+}
+
+
+
+.instructionBox .text {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 30px 30px 30px 45px;
+    border-radius: 16px;
+    box-sizing: border-box;
+    text-align: left;
+    color: #009448;
+
+}
+
+.instructionBox .icon {
+    font-family: impact;
+    background-color: #009448;
+    border-radius: 100%;
+    color: white;
+    padding: 7px 15px;
+    position: absolute;
+    font-weight: bold;
+    font-size: 20px;
+    transform: translateY(-50%);
+    left: 19px;
+    top: 57px;
+
+}
+
+.bodytext {
+    color: #60636A;
+    font-size: 18px;
+
+}
+
+.buttonPanel {
+    display: grid;
+    grid-template-columns: auto auto;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-right: 16px;
+
+
+}
+
+.mapStyle {
+    font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode';
+    line-height: 20px;
+    font-size: 16px;
+    background-color: #dedede
+}
+
+
+
+.buttonStyle1 {
+    padding: 5px 2px 2px 2px;
+    width: 150px;
+    text-align: left;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-right: 10px;
+    background: #fff;
+    color: #888;
+    box-shadow: 2px 2px 0 0 rgb(0 0 0 / 10%);
+    text-decoration: none !important;
+    border-radius: 16px;
+    cursor: pointer;
+}
