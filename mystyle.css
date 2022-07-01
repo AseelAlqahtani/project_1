@@ -1,3 +1,25 @@
+/* ---------------------button_Continue----------------- */
+.button_Continue {
+    padding: 11px 31px;
+    margin-right: 20px;
+    background: #4093CB;
+    text-align: center;
+    color: #fff;
+    box-shadow: 2px 2px 0 0 rgb(0 0 0 / 10%);
+    text-decoration: none;
+    border-radius: 16px;
+    cursor: pointer;
+    float: right;
+    margin-bottom: 50px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.active {
+    color: #0054A3;
+}
+
+/* ---------------end-button_Continue---------------- */
 .titel {
     font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode';
     font-size: 18px;
@@ -39,7 +61,6 @@ li:not(:last-child)::after {
     position: absolute;
     left: 22px;
     top: 35px;
-    
 
 }
 
@@ -136,3 +157,368 @@ li:hover {
     border-radius: 16px;
     cursor: pointer;
 }
+
+.MrkerSelected .btnText,
+.MrkerSelected .MarkerIcon {
+    color: white;
+    fill: #fff !important;
+    cursor: default;
+
+}
+
+#Steam.MrkerSelected {
+    background-color: #F68B2E;
+}
+
+#Gas.MrkerSelected {
+    background-color: #CC4141;
+}
+
+#Diesel.MrkerSelected {
+    background-color: #0054A3;
+}
+
+#Combined_Cycle.MrkerSelected {
+    background-color: #42AEBC;
+}
+
+#Diesel_Gas.MrkerSelected {
+    background-color: #9BCE3B;
+}
+
+#Showall.MrkerSelected {
+    background-color: #60636A;
+}
+
+a:hover .btnText {
+    color: white;
+}
+
+#Steam:hover {
+    background-color: #F68B2E;
+}
+
+#Gas:hover {
+    background-color: #CC4141;
+}
+
+#Diesel:hover {
+    background-color: #0054A3;
+}
+
+#Combined_Cycle:hover {
+    background-color: #42AEBC;
+}
+
+#Diesel_Gas:hover {
+    background-color: #9BCE3B;
+}
+
+#Showall:hover {
+    background-color: #60636A;
+}
+
+a:hover #Exclusion_2 {
+    fill: white;
+}
+
+/* .bodytext {
+    color: #60636A;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0px 30px 0px;
+    line-height: 30px;
+}
+
+center {
+    display: block;
+    text-align: -webkit-center;
+}
+
+.buttonStyle2 {
+    border: 2px solid white;
+    font-size: 18px;
+    padding: 17px 25px;
+    margin-right: 10px;
+    background: #fff;
+    text-align: center;
+    color: #888;
+    text-decoration: none;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+#diagram {
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.sepBox {
+    margin-bottom: -4px;
+    height: 80px;
+    position: relative;
+} */
+.bodytext {
+    padding-top: 10px;
+    color: #60636A;
+    font-size: 18px;
+}
+
+.instructionBox2 {
+    color: #009448
+}
+
+/* --------------CogenerationComponents.html------------- */
+.instructionBox2 .text {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 30px 30px 30px 45px;
+    border-radius: 16px;
+    box-sizing: border-box;
+    text-align: left;
+    width: 40%;
+    float: right;
+    margin-right: 10px;
+}
+
+.instructionBox2 .icon_comp {
+    font-family: impact;
+    background-color: #009448;
+    border-radius: 100%;
+    color: white;
+    padding: 7px 15px;
+    position: absolute;
+    font-weight: bold;
+    font-size: 20px;
+    top: 745px;
+    transform: translateY(-50%);
+    left: 575px;
+
+}
+
+#Layer_1 {
+    max-width: 900px;
+}
+
+center {
+    text-align: -webkit-center;
+}
+
+#Path_1:hover,
+#Path_28:hover,
+#Path_13:hover,
+#Path_19:hover,
+#Path_17:hover,
+#Path_14:hover,
+#Path_11:hover,
+#Path_29:hover,
+#Path_7:hover,
+#rect2:hover,
+#rect1:hover,
+#rect3,
+#rect4 {
+    fill: #74BB40;
+    cursor: pointer;
+}
+
+/* ---------------- quiz1.html---------------- */
+label>input[type="radio"] {
+    display: none;
+}
+
+label>input[type="radio"]+*::before {
+    content: "";
+    display: inline-block;
+    vertical-align: bottom;
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.3rem;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: gray;
+}
+
+
+
+label>input[type="radio"]:checked+*::before {
+    background: radial-gradient(#75BB43 0%, #75BB43 40%, transparent 50%, transparent);
+
+}
+
+label>input[type="radio"]+* {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+
+}
+
+
+.container_option {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+.question {
+    display: inline-block;
+    background: #fff;
+    color: #60636A;
+    box-shadow: 4px 4px 7px 2px rgb(0 0 0 / 10%);
+    text-decoration: none;
+    border-radius: 25px;
+    box-sizing: border-box;
+    font-size: 20px;
+    line-height: 22px;
+    margin-left: 70px;
+    margin-top: 70px;
+    position: relative;
+    padding: 25px;
+    padding-left: 60px;
+    margin-bottom: 20px;
+}
+
+.questionframe {
+    width: 100%;
+    min-height: 270px;
+    padding: 15px 15px 0px 50px;
+    position: relative;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+    max-width: 1000px;
+}
+
+.st0 {
+    fill: #FFFFFF;
+}
+
+.st1 {
+    fill: #75BB43;
+}
+
+.radioBtn {
+    padding: 7px;
+    color: #666;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+
+.control {
+    display: block;
+    position: relative;
+    padding-left: 30px !important;
+    margin-bottom: 15px !important;
+    font-size: 18px !important;
+}
+
+#submitBtn {
+    margin-left: 70px;
+    border-style: none;
+    background: white;
+    padding: 11px 31px;
+    border-radius: 16px;
+    box-shadow: 2px 2px 0 0 rgb(0 0 0 / 10%);
+}
+
+.buttonStyle2 {
+    padding: 11px 31px;
+    margin-right: 10px;
+    background: #fff;
+    text-align: center;
+    color: #888;
+    box-shadow: 2px 2px 0 0 rgb(0 0 0 / 10%);
+    text-decoration: none;
+    border-radius: 16px;
+}
+
+.instructionBox3 .text {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 30px 30px 30px 45px;
+    border-radius: 16px;
+    box-sizing: border-box;
+    text-align: left;
+    width: 40%;
+    float: right;
+    margin-right: 10px;
+}
+
+.instructionBox3 {
+    color: #009448;
+}
+
+.instructionBox3 .icon {
+    font-family: impact;
+    background-color: #009448;
+    border-radius: 100%;
+    color: white;
+    padding: 7px 15px;
+    position: absolute;
+    font-weight: bold;
+    font-size: 20px;
+    top: 597px;
+    transform: translateY(-50%);
+    left: 573px;
+}
+
+.qicon {
+    position: absolute;
+    top: -41px;
+    left: -47px;
+    height: 100%;
+}
+
+.pageNumber {
+    border: 2px solid #75BB43;
+    background: white;
+    padding: 9px 16px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 5px;
+    color: #444;
+}
+
+.rightArrow {
+    border-radius: 50% !important;
+    padding: 12px 15px 11px 19px !important;
+}
+
+.fa-chevron-right::before {
+    content: "\F234";
+}
+
+leftArrow {
+    border-radius: 50% !important;
+    padding: 12px 19px 11px 15px !important;
+}
+
+.fa-chevron-left:before {
+    content: "\F230";
+    font-family: "Bootstrap";
+}
+
+#quizPageCounter {
+    text-align: center;
+    margin: 0 auto;
+    width: 280px;
+    margin-top: 100px;
+}
+
+#quizPageCounter {
+    text-align: center;
+    margin: 0 auto;
+    width: 280px;
+    margin-top: 100px;
+}
+
+
+/* ---------------- End-quiz1.html---------------- */
