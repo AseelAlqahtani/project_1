@@ -19,14 +19,14 @@ function submitBtn() {
 
     if (radio[2].checked) {
 
-        document.getElementById('exampleModal').innerHTML = '<i class="bi bi-check2-circle"></i> Correct';
-        document.getElementById('exampleModal').style.color = "green"
+        document.getElementById('exampleModallabel').innerHTML = '<i class="bi bi-check2-circle"></i> Correct';
+        document.getElementById('exampleModallabel').style.color = "green"
         document.getElementById('msge').innerHTML = "That’s correct! A three-phase machine does not require a starter.";
     }
     else {
-        document.getElementById('exampleModal').innerHTML = '<i class="bi bi-exclamation-circle"></i>Incorrect';
+        document.getElementById('exampleModallabel').innerHTML = '<i class="bi bi-exclamation-circle"></i>Incorrect';
         // document.getElementById('reasone').innerHTML = "That’s not quite right. Power per kilogram of metal from a Three-phase machine is more as compared to single phase machine."
-        document.getElementById('exampleModal').style.color = "red"
+        document.getElementById('exampleModallabel').style.color = "red"
         for (let i = 0; i < radio.length; i++) {
             if (radio[i].checked && i != 2) {
                 text = msge[i]
